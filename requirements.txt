@@ -1,0 +1,2 @@
+bottle==0.12.8
+phonenumbers==7.0.5
