@@ -4,7 +4,6 @@ from phonenumbers import carrier, NumberParseException
 
 app = Bottle()
 
-
 @app.route('/', method='GET')
 def hello():
     return "Check Phone micro service"
