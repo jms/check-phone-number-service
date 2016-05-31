@@ -1,6 +1,5 @@
 import pytest
-import check_phonenumber.service
-
+from check_phonenumber.service import CheckPhoneNumber
 
 @pytest.fixture
 def test_data():
@@ -12,5 +11,5 @@ def test_data():
 
 
 def test_service(test_data):
-    result = check_phonenumber.service.CheckPhoneNumber.validate_phone(data=test_data)
+    result = CheckPhoneNumber.validate_phone(data=test_data)
     assert result.get('valid_number') is True
