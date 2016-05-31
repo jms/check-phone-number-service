@@ -9,3 +9,11 @@ pipelines:
           - pip install -U tox
           - pip --version
           - tox --version
+  branches:
+    dist:
+      - step:
+          script:
+            - pip install -U tox
+            - pip --version
+            - tox            
+
