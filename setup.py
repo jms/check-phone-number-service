@@ -1,4 +1,5 @@
-from distutils.core import setup 
+from setuptools import setup, find_packages
+
 setup(
     name='check-phone-number',
     version='1.0',
@@ -6,5 +7,7 @@ setup(
     author="Jeronimo Martinez Sanchez",
     author_email="jms@rz0r.net",
     description="Bottle microservice to verify phone numbers",
-    py_modules=['main']
+    py_modules=['main', 'check_phonenumber.service'],
+    setup_requires=['pytest-runner', ],
+    tests_require=['pytest', ]
 )
