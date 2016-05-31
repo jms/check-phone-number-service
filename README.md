@@ -1,4 +1,5 @@
-# check-phone-number-service
+
+# check-phone-number-service [![Build Status](https://travis-ci.org/jms/check-phone-number-service.svg?branch=master)](https://travis-ci.org/jms/check-phone-number-service)
 microservice to check phone numbers using libphonenumber  and the python port python-phonenumbers
 
 Test data
