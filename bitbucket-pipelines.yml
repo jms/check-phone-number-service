@@ -1,6 +1,7 @@
 # You can use a Docker image from Docker Hub or your own container
 # registry for your build environment.
-image: python:3.5.1
+# image: python:3.5.1
+image: higebu/tox
 
 pipelines:
   default:
